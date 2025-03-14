@@ -1,10 +1,11 @@
+import React from 'react';
 import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import Layout from './components/Layout/Layout';
 import Home from './components/Home/Home';
 import All from './components/All/All';
 import Beef from './components/Beef/Beef';
-import BreakFast from './components/BreakFast/BreakFast';
+import BreakFast from './components/BreakFast/BreakFast'; // Corrected import statement
 import Chicken from './components/Chicken/Chicken';
 import Dessert from './components/Dessert/Dessert';
 import Goat from './components/Goat/Goat';
